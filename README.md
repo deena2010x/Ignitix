@@ -12,6 +12,7 @@ NumPy: Leveraged for numerical operations, data manipulation, and processing ima
 Pandas: Used for data handling and analysis, including user workout history, performance metrics, and progress tracking.
 Mathematics: Applied mathematical algorithms to optimize workout routines based on user goals and performance data.
 Time Management: Implemented timers and scheduling features for workout sessions to enhance user experience.
+
 Key Features:
 
 Real-Time Posture Analysis: Captures user movements using a webcam and provides instant feedback on exercise form, reducing the risk of injury.
