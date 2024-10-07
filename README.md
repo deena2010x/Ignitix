@@ -1,4 +1,4 @@
-Ignitix
+**Ignitix**
 
 Python AI Workout Manager
 
@@ -19,6 +19,6 @@ Key Features:
 Real-Time Posture Analysis: Captures user movements using a webcam and provides instant feedback on exercise form, reducing the risk of injury.\
 Personalized Workout Plans: Generates customized workout routines based on user fitness levels, goals, and historical performance data.\
 Performance Tracking: Monitors user progress over time, providing insights and analytics through visualizations created with Pandas.\
-User-Friendly Interface: Designed an intuitive user interface that allows users to easily navigate workout options, track sessions, and receive feedback.\
+User-Friendly Interface: Designed an intuitive user interface that allows users to easily navigate workout options, track sessions, and receive feedback.
 
 Impact: This project demonstrates the application of advanced computer vision techniques in the fitness domain, enhancing user engagement and effectiveness in achieving fitness goals. It showcases proficiency in Python programming, data analysis, and machine learning, providing a robust solution for modern fitness management.
