@@ -5,13 +5,13 @@ Overview: Developed an AI-driven workout manager application that assists users 
 
 Technologies Used:
 
-Python: The primary programming language for the application.
-OpenCV (cv2): Employed for real-time video processing and posture detection during workouts.
-MediaPipe: Utilized for efficient and accurate body landmark detection to analyze user form and movements.
-NumPy: Leveraged for numerical operations, data manipulation, and processing image data for posture analysis.
-Pandas: Used for data handling and analysis, including user workout history, performance metrics, and progress tracking.
-Mathematics: Applied mathematical algorithms to optimize workout routines based on user goals and performance data.
-Time Management: Implemented timers and scheduling features for workout sessions to enhance user experience.
+Python: The primary programming language for the application.\
+OpenCV (cv2): Employed for real-time video processing and posture detection during workouts.\
+MediaPipe: Utilized for efficient and accurate body landmark detection to analyze user form and movements.\
+NumPy: Leveraged for numerical operations, data manipulation, and processing image data for posture analysis.\
+Pandas: Used for data handling and analysis, including user workout history, performance metrics, and progress tracking.\
+Mathematics: Applied mathematical algorithms to optimize workout routines based on user goals and performance data.\
+Time Management: Implemented timers and scheduling features for workout sessions to enhance user experience.\
 
 Key Features:
 
