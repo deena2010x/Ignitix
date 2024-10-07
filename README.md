@@ -1,4 +1,5 @@
 Ignitix
+
 Python AI Workout Manager
 
 Overview: Developed an AI-driven workout manager application that assists users in creating personalized fitness routines and tracking their performance using computer vision and machine learning techniques.
