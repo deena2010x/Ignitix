@@ -21,4 +21,4 @@ User-Friendly Interface: Designed an intuitive user interface that allows users 
 
 **Impact:** This project demonstrates the application of advanced computer vision techniques in the fitness domain, enhancing user engagement and effectiveness in achieving fitness goals. It showcases proficiency in Python programming, data analysis, and machine learning, providing a robust solution for modern fitness management.
 
-![image](https://github.com/user-attachments/assets/9542aa4f-b0dc-4dfb-8121-7ff38454019e)
+![image](https://github.com/user-attachments/assets/7e6afe7b-2a4c-4147-9527-78cefbdfb00b)
