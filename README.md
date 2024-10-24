@@ -20,3 +20,7 @@ Performance Tracking: Monitors user progress over time, providing insights and a
 User-Friendly Interface: Designed an intuitive user interface that allows users to easily navigate workout options, track sessions, and receive feedback.
 
 **Impact:** This project demonstrates the application of advanced computer vision techniques in the fitness domain, enhancing user engagement and effectiveness in achieving fitness goals. It showcases proficiency in Python programming, data analysis, and machine learning, providing a robust solution for modern fitness management.
+
+
+![image](https://github.com/user-attachments/assets/8789940c-1beb-4511-990d-67f351901ad8)
+
