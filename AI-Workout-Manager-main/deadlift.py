@@ -23,22 +23,6 @@ def calculate_angle(a, b, c):
         angle = 360 - angle
     return angle
 
-def display_clock_icon(image, icon_path, height, width):
-    clock_icon = cv2.imread(icon_path, -1)
-    icon_size = 200
-    clock_icon = cv2.resize(clock_icon, (375, icon_size))
-    x_offset = width - clock_icon.shape[1] - 120
-    y_offset = 260
-    if clock_icon.shape[2] == 4:
-        alpha_icon = clock_icon[:, :, 3] / 255.0
-        alpha_image = 1.0 - alpha_icon
-        for c in range(0, 3):
-            image[y_offset:y_offset + clock_icon.shape[0], x_offset:x_offset + clock_icon.shape[1], c] = \
-                alpha_icon * clock_icon[:, :, c] + \
-                alpha_image * image[y_offset:y_offset + clock_icon.shape[0], x_offset:x_offset + clock_icon.shape[1], c]
-    else:
-        image[y_offset:y_offset + clock_icon.shape[0], x_offset:x_offset + clock_icon.shape[1]] = clock_icon
-    return image
 
 def display_time(image, start_time, height, width):
     elapsed_time = time.time() - start_time
@@ -87,13 +71,13 @@ def calculate_and_display_angle(hip, knee, ankle, stage, counter):
 def render_ui(image, counter, stage, angle, width):
     angle_max = 178
     angle_min = 25
+    
     # Title and Background
-    cv2.rectangle(image, (int(width / 2) - 150, 0), (int(width / 2) + 250, 73), BLUE, -1)
-    cv2.putText(image, 'AI Workout Manager', (int(width / 2) - 100, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, WHITE, 2,
-                cv2.LINE_AA)
+    cv2.rectangle(image, (int(width / 2) + 250, 0), (int(width / 2) + 40, 73), BLACK, -1)
+    cv2.putText(image, 'IGNITIX', (int(width / 2) + 100, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, WHITE, 2,cv2.LINE_AA)
 
     # Reps
-    cv2.rectangle(image, (0, 0), (255, 73), BLUE, -1)
+    cv2.rectangle(image, (0, 0), (255, 73), BLACK, -1)
     cv2.putText(image, 'REPS', (15, 25), cv2.FONT_HERSHEY_SIMPLEX, 0.5, WHITE, 1, cv2.LINE_AA)
     cv2.putText(image, str(counter), (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 1, WHITE, 2, cv2.LINE_AA)
 
@@ -130,12 +114,11 @@ def run_pose_detection(mp_drawing, mp_pose, filename):
             hip, knee, ankle = extract_landmarks(results)
             angle, stage, counter = calculate_and_display_angle(hip, knee, ankle, stage, counter)
             image = render_ui(image, counter, stage, angle, width)
-            image = display_clock_icon(image, 'assets/clock.png', height, width)
             image = display_time(image, start_time, height, width)
             mp_drawing.draw_landmarks(image, results.pose_landmarks, mp_pose.POSE_CONNECTIONS,
                                       mp_drawing.DrawingSpec(color=(245, 117, 66), thickness=2, circle_radius=5),
                                       mp_drawing.DrawingSpec(color=(245, 66, 230), thickness=2, circle_radius=5))
-            cv2.imshow('AI Workout Manager', image)
+            cv2.imshow('IGNITIX', image)
             if cv2.waitKey(10) & 0xFF == ord('c'):
                 break
         cap.release()
