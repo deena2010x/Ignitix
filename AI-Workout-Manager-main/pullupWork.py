@@ -80,8 +80,8 @@ def render_ui(image, counter, stage, angle, width):
     cv2.putText(image, 'IGNITIX', (int(width / 2) + 100, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, WHITE, 2,cv2.LINE_AA)
     cv2.rectangle(image, (0, 0), (255, 73), BLACK, -1)
 
-    # Reps
-    cv2.putText(image, 'REPS', (15, 25), cv2.FONT_HERSHEY_SIMPLEX, 0.5, WHITE, 1, cv2.LINE_AA)
+    # Counts
+    cv2.putText(image, 'COUNTS', (15, 25), cv2.FONT_HERSHEY_SIMPLEX, 0.5, WHITE, 1, cv2.LINE_AA)
     cv2.putText(image, str(counter), (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 1, WHITE, 2, cv2.LINE_AA)
 
     # Stage
