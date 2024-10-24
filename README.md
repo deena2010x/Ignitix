@@ -23,5 +23,3 @@ User-Friendly Interface: Designed an intuitive user interface that allows users 
 
 
 ![image](https://github.com/user-attachments/assets/8789940c-1beb-4511-990d-67f351901ad8)
-
-![image](https://github.com/user-attachments/assets/d1cd9a60-c6d9-416e-a954-08603dae9045)
