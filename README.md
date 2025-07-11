@@ -21,6 +21,4 @@ User-Friendly Interface: Designed an intuitive user interface that allows users 
 
 **Impact:** This project demonstrates the application of advanced computer vision techniques in the fitness domain, enhancing user engagement and effectiveness in achieving fitness goals. It showcases proficiency in Python programming, data analysis, and machine learning, providing a robust solution for modern fitness management.
 
-And yeah, thats me!!:)
-
-![image](https://github.com/user-attachments/assets/93645821-2356-493d-b020-1dbd4ed137b7)
+Check out https://app.readytensor.ai/publications/ignitix-python-ai-workout-manager-cGBMrtGnKOxf for more insights!
